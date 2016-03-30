@@ -1,23 +1,23 @@
-OpenStack docs.openstack.org Sphinx Theme
+Vauxoo docs.vauxoo.com Sphinx Theme
 =========================================
 
 Theme and extension support for Sphinx documentation that is published to
-docs.openstack.org and developer.openstack.org.
+docs.vauxoo.com and developer.vauxoo.com.
 
-Intended for use by OpenStack `projects governed by the Technical Committee`_.
+Intended for use by Vauxoo `projects governed by the Technical Committee`_.
 
 .. _`projects governed by the Technical Committee`:
-http://governance.openstack.org/reference/projects/index.html
+http://governance.vauxoo.com/reference/projects/index.html
 
 Using the Theme
 ===============
 
-Prior to using this theme, ensure your project can use the OpenStack
+Prior to using this theme, ensure your project can use the Vauxoo
 brand by referring to the brand guidelines at
-http://www.openstack.org/brand.
+http://www.vauxoo.com/brand.
 
 Update the requirements list for your project to
-include ``openstackdocstheme`` (usually in test-requirements.txt).
+include ``vauxoodocstheme`` (usually in test-requirements.txt).
 
 If your project previously used the oslosphinx theme (without modifying
 the header navigation), remove oslosphinx from your requirements list,
@@ -30,10 +30,10 @@ changed.
 
 Then modify your Sphinx settings in ``conf.py`` to include::
 
-   import openstackdocstheme
+   import vauxoodocstheme
 
-   html_theme = 'openstackdocs'
-   html_theme_path = [openstackdocstheme.get_html_theme_path()]
+   html_theme = 'vauxoodocs'
+   html_theme_path = [vauxoodocstheme.get_html_theme_path()]
 
 Also, you must include these variables so that the "Log a bug" link sends
 metadata for the project where the docs reside::
@@ -53,7 +53,7 @@ metadata for the project where the docs reside::
    html_last_updated_fmt = '%Y-%m-%d %H:%M'
 
 * Free software: Apache License, Version 2.0
-* Documentation: http://docs.openstack.org/developer/openstackdocstheme
-* Source: http://git.openstack.org/cgit/openstack/openstackdocstheme
-* Bugs: http://bugs.launchpad.net/openstack-manuals
+* Documentation: http://docs.vauxoo.com/developer/vauxoodocstheme
+* Source: http://git.vauxoo.com/cgit/vauxoo/vauxoodocstheme
+* Bugs: http://bugs.launchpad.net/vauxoo-manuals
 

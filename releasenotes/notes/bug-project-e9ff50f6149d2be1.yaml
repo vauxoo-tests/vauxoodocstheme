@@ -1,5 +1,5 @@
 ---
 features:
-  - Some teams use openstackdocstheme which have each launchpad project.
+  - Some teams use vauxoodocstheme which have each launchpad project.
     To report a bug to the appropriate project directly,
     enable each project to define the bug report project.

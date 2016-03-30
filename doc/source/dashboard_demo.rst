@@ -1,8 +1,8 @@
 ===================
-OpenStack dashboard
+Vauxoo dashboard
 ===================
 
-As a cloud end user, you can use the OpenStack dashboard to provision
+As a cloud end user, you can use the Vauxoo dashboard to provision
 your own resources within the limits set by administrators. You can
 modify the examples provided in this section to create other types and
 sizes of server instances.
@@ -59,7 +59,7 @@ server role.
 
 .. _dashboard-project-tab:
 
-OpenStack dashboard—Project tab
+Vauxoo dashboard—Project tab
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Projects are organizational units in the cloud, and are also known as
@@ -132,7 +132,7 @@ reboot instances, or connect to them through VNC.
 
 .. _dashboard-admin-tab:
 
-OpenStack dashboard—Admin tab
+Vauxoo dashboard—Admin tab
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Administrative users can use the :guilabel:`Admin tab` to view usage and to
@@ -190,7 +190,7 @@ information:
 :guilabel:`Network Agents`: View the network agents.
 
 :guilabel:`Default Quotas`: View default quota values. Quotas are hard-coded in
-OpenStack Compute and define the maximum allowable size and number of
+Vauxoo Compute and define the maximum allowable size and number of
 resources.
 
 :guilabel:`Identity Panel` tab

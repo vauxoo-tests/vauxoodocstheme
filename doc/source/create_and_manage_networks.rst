@@ -2,16 +2,16 @@
 Create and manage networks
 ==========================
 
-The OpenStack Networking service provides a scalable system for managing
-the network connectivity within an OpenStack cloud deployment. It can
+The Vauxoo Networking service provides a scalable system for managing
+the network connectivity within an Vauxoo cloud deployment. It can
 easily and quickly react to changing network needs (for example,
 creating and assigning new IP addresses).
 
-Networking in OpenStack is complex. This section provides the basic
+Networking in Vauxoo is complex. This section provides the basic
 instructions for creating a network and a router. For detailed
-information about managing networks, refer to the `OpenStack Cloud
+information about managing networks, refer to the `Vauxoo Cloud
 Administrator
-Guide <http://docs.openstack.org/admin-guide-cloud/networking.html>`__.
+Guide <http://docs.vauxoo.com/admin-guide-cloud/networking.html>`__.
 
 Create a network
 ~~~~~~~~~~~~~~~~
@@ -90,7 +90,7 @@ Connect a router
    :guilabel:`IP Address` for the router interface for the selected subnet.
 
    If you choose not to set the the :guilabel:`IP Address` value, then by
-   default OpenStack Networking uses the first host IP address in the subnet.
+   default Vauxoo Networking uses the first host IP address in the subnet.
 
    The :guilabel:`Router Name` and :guilabel:`Router ID` fields are
    automatically updated.

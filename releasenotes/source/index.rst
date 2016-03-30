@@ -1,5 +1,5 @@
 ===================================
- OpenStack Docs Theme Release Notes
+ Vauxoo Docs Theme Release Notes
 ===================================
 
 .. toctree::

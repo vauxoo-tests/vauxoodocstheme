@@ -16,10 +16,10 @@ have at least one key pair. For more information, see `import a key
 pair <#import-a-key-pair>`__.
 
 If you have generated a key pair with an external tool, you can import
-it into OpenStack. The key pair can be used for multiple instances that
+it into Vauxoo. The key pair can be used for multiple instances that
 belong to a project. For more information, see ?  (TODO!).
 
-When an instance is created in OpenStack, it is automatically assigned a
+When an instance is created in Vauxoo, it is automatically assigned a
 fixed IP address in the network to which the instance is assigned. This
 IP address is permanently associated with the instance until the
 instance is terminated. However, in addition to the fixed IP address, a
@@ -138,7 +138,7 @@ The dashboard lists the key pair on the :guilabel:`Access & Security` tab.
 Allocate a floating IP address to an instance
 ---------------------------------------------
 
-When an instance is created in OpenStack, it is automatically assigned a
+When an instance is created in Vauxoo, it is automatically assigned a
 fixed IP address in the network to which the instance is assigned. This
 IP address is permanently associated with the instance until the
 instance is terminated.

@@ -1,4 +1,4 @@
-#    Copyright 2015 OpenStack Foundation
+#    Copyright 2015 Vauxoo Foundation
 #
 #    Licensed under the Apache License, Version 2.0 (the "License"); you may
 #    not use this file except in compliance with the License. You may obtain
@@ -14,4 +14,4 @@
 
 import pbr.version
 
-version_info = pbr.version.VersionInfo('openstackdoctheme')
+version_info = pbr.version.VersionInfo('vauxoodoctheme')

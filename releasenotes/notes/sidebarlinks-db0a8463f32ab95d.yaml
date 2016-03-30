@@ -1,4 +1,4 @@
 ---
 fixes:
-  - Fix links on sidebar to go to docs.openstack.org instead of
+  - Fix links on sidebar to go to docs.vauxoo.com instead of
     non-existing places (Launchpad bug #1521698).

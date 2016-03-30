@@ -16,7 +16,7 @@ import subprocess
 import sys
 import os
 
-import openstackdocstheme
+import vauxoodocstheme
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -49,7 +49,7 @@ master_doc = 'index'
 # It's used by the "log-a-bug" button on each page
 # and should ultimately be set automatically by the build process
 project = u'network guide'
-copyright = u'2015, OpenStack Contributors'
+copyright = u'2015, Vauxoo Contributors'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -67,7 +67,7 @@ release = '1.0'
 #   gitsha: The SHA checksum of the bug description. Automatically extracted from git log.
 #   bug_tag: Tag for categorizing the bug. Must be set manually.
 # These variables are passed to the logabug code via html_context.
-giturl = u'http://git.openstack.org/cgit/openstack/openstackdocstheme/tree/doc/source'
+giturl = u'http://git.vauxoo.com/cgit/vauxoo/vauxoodocstheme/tree/doc/source'
 git_cmd = ["/usr/bin/git", "rev-parse", "HEAD"]
 gitsha = subprocess.Popen(
     git_cmd, stdout=subprocess.PIPE).communicate()[0].strip('\n')
@@ -117,7 +117,7 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'openstackdocs'
+html_theme = 'vauxoodocs'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -125,7 +125,7 @@ html_theme = 'openstackdocs'
 #html_theme_options = {}
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = [openstackdocstheme.get_html_theme_path()]
+html_theme_path = [vauxoodocstheme.get_html_theme_path()]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
@@ -221,7 +221,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   ('index', 'os-doc-demo.tex', u'os-doc-demo Documentation',
-   u'OpenStack Contributors', 'manual'),
+   u'Vauxoo Contributors', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -251,7 +251,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'os-doc-demo', u'os-doc-demo Documentation',
-     [u'OpenStack Contributors'], 1)
+     [u'Vauxoo Contributors'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -265,7 +265,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'os-doc-demo', u'os-doc-demo Documentation',
-   u'OpenStack Contributors', 'os-doc-demo', 'One line description of project.',
+   u'Vauxoo Contributors', 'os-doc-demo', 'One line description of project.',
    'Miscellaneous'),
 ]
 

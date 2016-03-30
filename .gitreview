@@ -1,4 +1,4 @@
 [gerrit]
-host=review.openstack.org
+host=review.vauxoo.com
 port=29418
-project=openstack/openstackdocstheme.git
+project=vauxoo/vauxoodocstheme.git

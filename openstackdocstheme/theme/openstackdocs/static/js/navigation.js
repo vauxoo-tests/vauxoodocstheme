@@ -61,7 +61,7 @@ jQuery(window).resize(function () {
 
 // Show placeholder text in Google Search
 setTimeout( function() {
-    $(".gsc-input").attr("placeholder", "search docs.openstack.org");
+    $(".gsc-input").attr("placeholder", "search docs.vauxoo.com");
 }, 1000 );
 
 

@@ -90,11 +90,11 @@ $('a').click(function(){
 $.getJSON('common/js/doc-characters.json', function(data) {
   var item = data.images[Math.floor(Math.random()*data.images.length)];
   $('<img src="common/images/docs/' + item.image + '">').appendTo('#superuser-img');
-  $('<p>' + item.caption + '<strong>OpenStack Operator</strong></p>').appendTo('#superuser-img');
+  $('<p>' + item.caption + '<strong>Vauxoo Operator</strong></p>').appendTo('#superuser-img');
 });
 
 /* BB 150310
-   openstackdocstheme provides three types of admonitions, important, note
+   vauxoodocstheme provides three types of admonitions, important, note
    and warning. We decorate their title paragraphs with Font Awesome icons
    by adding the appropriate FA classes.                               */
 
@@ -108,7 +108,7 @@ $('div.warning > p.admonition-title').addClass('fa fa-exclamation-triangle');
 
    This could be done with a single clause $('p.admonition-title')....,
    affecting all types of admonitions. I play it safe here and explicitly
-   work on the three openstackdocstheme admonitions.
+   work on the three vauxoodocstheme admonitions.
 
    The first parameter of the text() callback is not needed here (it's
    the index of the HTML element that we are modifying)                 */
@@ -124,7 +124,7 @@ $('div.warning > p.admonition-title').text(function(ignored_para,original) {
 });
 
 // Gives the log a bug icon the information it needs to generate the bug in
-// Launchpad with pre-filled information such as git SHA, git.openstack.org
+// Launchpad with pre-filled information such as git SHA, git.vauxoo.com
 // source URL, published document URL and tag.
 function logABug(bugTitle, bugProject, fieldComment, fieldTags) {
     var lineFeed = "%0A";

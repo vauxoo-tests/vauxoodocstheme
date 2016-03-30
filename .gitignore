@@ -2,7 +2,7 @@ _build/
 /AUTHORS
 /ChangeLog
 /dist/
-/openstackdocstheme.egg-info/
+/vauxoodocstheme.egg-info/
 *.pyc
 doc/build
 doc/source/BBresult
