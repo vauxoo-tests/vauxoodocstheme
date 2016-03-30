@@ -1,3 +1,6 @@
+.. image:: https://travis-ci.org/vauxoo-tests/vauxoodocstheme.svg?branch=master
+    :target: https://travis-ci.org/vauxoo-tests/vauxoodocstheme
+
 Vauxoo docs.vauxoo.com Sphinx Theme
 =========================================
 
